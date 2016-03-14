@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+  <name>mon_package_ros</name>
+  <version>1.0.0</version>
+  <description>Ce package a pour but de vous apprendre a creer des packages ros</description>
+
+  <maintainer email="turtlebot.mec3@gmail.com"> Mec3</maintainer>
+  <license>BSD</license>
+
+  <url>htts://github.com/TurtlebotMec3</url>
+  <author>Quentin Mercier</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- Vous devez mettre ici les dépendances nécéssaires à l'utilisation de votre package --> 
+  <build_depend>rospy</build_depend>
+  <run_depend>rospy</run_depend>
+
+</package>

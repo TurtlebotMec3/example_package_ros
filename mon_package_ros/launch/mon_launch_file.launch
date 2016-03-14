@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<launch>
+    	<node pkg="mon_package_ros" type="emetteur" name="noeud_emetteur" output="screen">
+    	</node>
+
+    	<node pkg="mon_package_ros" type="recepteur" name="noeud_recepteur" output="screen">
+    	</node>
+</launch>
+
