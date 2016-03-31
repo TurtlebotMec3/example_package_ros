@@ -34,8 +34,8 @@ catkin_package(
 
 # Il faut mettre ici la location de vos scripts pythons
  install(PROGRAMS
-   src/emetteur
-   src/recepteur
+   src/emetteur.py
+   src/recepteur.py
    DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
  )
 
